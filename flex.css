@@ -1,0 +1,86 @@
+body{
+     margin:0;
+     font-family: "Lexend Deca", sans-serif;
+     padding:3rem;
+}
+.flex-container{
+    color:white;
+   
+    padding:5rem;
+    display:flex;
+ 
+    justify-content:center;
+    align-items: center;
+    
+    margin-inline:3rem;
+   box-shadow: 0px 0px 20px 0px #888888;
+    
+}
+
+ .orange button a{
+    color:hsl(31, 77%, 52%);
+    text-decoration: none;
+
+}
+.flex-container .orange button:hover {
+    background-color:hsl(31, 77%, 52%) ;
+    border:2px solid white;
+
+}
+
+.flex-container .cyan button:hover {
+    background-color:hsl(184, 100%, 22%);
+    border:2px solid white;
+}
+
+.flex-container .green button:hover {
+    background-color:hsl(179, 100%, 13%);
+    border:2px solid white;
+}
+
+.flex-container a:hover{
+    color: white;
+}
+
+.cyan button a{
+    color: hsl(184, 100%, 22%);
+    text-decoration:none;
+}
+.green button a {
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+
+}
+.flex-container button{
+    padding:0.6rem;
+    border-radius: 37px;
+    width:110px;
+    margin-top: 6rem;
+}
+.flex-container h2{
+    text-transform:uppercase;
+     font-family: "Big Shoulders", sans-serif;
+}
+.orange{
+    background-color: hsl(31, 77%, 52%) ;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    min-width: min-content;
+}
+.green{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+.green{
+    background-color: hsl(179, 100%, 13%);
+}
+.flex-container > *{
+    padding:1rem;
+    height:400px;
+
+}
